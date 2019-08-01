@@ -1,0 +1,135 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.topLinks{
+  float: left;
+  width: 50%;
+  color:white;
+  margin-top: 12px;
+}
+
+.topLinks li{
+  list-style:none;
+  display: inline;
+}
+
+.topLinks li a{
+  text-decoration:none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.topLinks li a:hover{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.bodyContent{
+  float: left;
+  width: 65%;
+  padding: 15px;
+}
+
+.sideBar{
+  float: left;
+  width: 30%;
+
+}
+
+.searchBar{
+  float: right;
+  margin: 5px;
+}
+
+.searchBar .inputSearch{
+  width: 190px;
+  padding: 8px;
+  border: none;
+  margin: 5px;
+  border-bottom: 2px solid black
+}
+
+.buttonSearch{
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color:white;
+}
+
+.footer{
+  clear: both;
+  background-color: black;
+  color:white;
+  padding: 15px;
+}
+
+.contactUS{
+  clear: both;
+  margin-top: 50px;
+}
+
+.contactUS form{
+  float: left;
+  padding: 10px;
+  width: 65%;
+  padding-left: 50px;
+  height: 82vh;
+    font-size: 20px;
+}
+
+.contactUS form .formField{
+  width: 50%;
+  padding: 8px;
+  border: none;
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+.contactUS form .contactSearch{
+  width: 52%;
+  background-color: black;
+  color:white;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.contactUS .address{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.aboutUs .centerTag{
+  text-align: center;
+}
+.aboutUs{
+  margin-top: 50%;
+  clear: both;
+  background-color: #FAEBD7;
+  padding: 15px;
+  padding-left: 60px;
+}
+.aboutFields{
+  background-color: #F0F8FF	;
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
